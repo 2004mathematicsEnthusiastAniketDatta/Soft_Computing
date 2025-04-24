@@ -1,7 +1,7 @@
 import numpy as np
 
 def max_min_composition(R,S):
-    if R.shape != S.shape:
+    if R.shape[1] != S.shape[0]:
         raise ValueError("Number of columns in R must be equal to number of rows in S")
     
     m,n= R.shape
