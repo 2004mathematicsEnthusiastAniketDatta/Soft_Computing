@@ -26,3 +26,4 @@ plt.show()
 x_val = float(input("Enter the element: "))
 mem = fuzz.sigmf(np.array([x_val]), b, a)[0]
 print(f"Membership value: {mem}")
+
