@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 a=int(input("Enter the leftmost point:"))
 b=int(input("Enter the rightmost point:"))
 m=int(input("Enter the peak value 1:"))
