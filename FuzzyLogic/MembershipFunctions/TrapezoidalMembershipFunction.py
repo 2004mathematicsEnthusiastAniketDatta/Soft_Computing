@@ -29,3 +29,4 @@ def trapezoidalMembershipFunction(x):
 
 trapezoidalMembershipFunction(7)
 
+
